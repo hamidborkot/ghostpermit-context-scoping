@@ -1,0 +1,32 @@
+{
+  "manuscript": "GhostPermit_JointUse_CEE.tex",
+  "main_sections": 8,
+  "tables": 8,
+  "algorithms": 2,
+  "figures": 4,
+  "numbered_equation_environments": 6,
+  "undefined_internal_references": [],
+  "duplicate_labels": [],
+  "numeric_macro_file_required": false,
+  "table_format": "CAS table/table* with standard tabular* and p/c/l/r columns",
+  "control_characters_found": [],
+  "brace_balance_checked": true,
+  "environment_nesting_checked": true,
+  "word_counts_excluding_headings_floats_display_math_citations": {
+    "abstract": 183,
+    "section_1": 466,
+    "section_2": 294,
+    "section_3": 290,
+    "section_4": 302,
+    "section_5": 525,
+    "section_6": 553,
+    "section_7": 296,
+    "section_8": 161,
+    "appendices": 576
+  },
+  "data_checks": "Main matrix cells, deployment totals, exclusion totals, gate membership and propagation totals checked against the supplied reconstruction.",
+  "statistics_script_executed": true,
+  "latex_compiled": false,
+  "reason_no_compile": "No LaTeX engine or Elsevier CAS class bundle in this execution environment.",
+  "external_project_assets": "Author CAS files, cas-refs.bib, existing figure artwork, final author/declaration metadata."
+}
