@@ -1,0 +1,23 @@
+\begin{table}[width=\linewidth,pos=t]
+\caption{Label precision for outputs that a union label would deny in briefings (v1, owner). Single: one-source task. Pair: two-source task. Brief: daily briefing over all sources. Deny: forbidden set among verbatim markers. Review high: forbidden set only under the generous detector. Review low: no forbidden set under either detector. Intervals are Wilson 95\%.}\label{tab:precision2}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccccc@{}}
+\toprule
+Model & Task & Union denies & Deny & Review high & Review low & 95\% interval \\
+\midrule
+ALL MODELS & brief & 180 & 117 & 38 & 25 (13.9\%) & 9.6-19.7 \\
+Phi-3.5-mini-instruct & brief & 60 & 31 & 6 & 23 (38.3\%) & 27.1-51.0 \\
+Qwen3-4B-Instruct-2507 & brief & 60 & 53 & 5 & 2 (3.3\%) & 0.9-11.4 \\
+granite-3.3-2b-instruct & brief & 60 & 33 & 27 & 0 (0.0\%) & 0.0-6.0 \\
+ALL MODELS & pair & 180 & 71 & 33 & 76 (42.2\%) & 35.2-49.5 \\
+Phi-3.5-mini-instruct & pair & 60 & 23 & 4 & 33 (55.0\%) & 42.5-66.9 \\
+Qwen3-4B-Instruct-2507 & pair & 60 & 28 & 9 & 23 (38.3\%) & 27.1-51.0 \\
+granite-3.3-2b-instruct & pair & 60 & 20 & 20 & 20 (33.3\%) & 22.7-45.9 \\
+ALL MODELS & single & 180 & 12 & 15 & 153 (85.0\%) & 79.1-89.5 \\
+Phi-3.5-mini-instruct & single & 60 & 5 & 1 & 54 (90.0\%) & 79.9-95.3 \\
+Qwen3-4B-Instruct-2507 & single & 60 & 7 & 9 & 44 (73.3\%) & 61.0-82.9 \\
+granite-3.3-2b-instruct & single & 60 & 0 & 5 & 55 (91.7\%) & 81.9-96.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

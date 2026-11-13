@@ -1,0 +1,13 @@
+model,cls,n_union_deny,interval_deny,review_high,review_low,review_low_pct,review_low_ci,join_strict,join_relaxed
+ALL MODELS,brief,180,117,38,25,13.9,9.6-19.7,117,155
+Phi-3.5-mini-instruct,brief,60,31,6,23,38.3,27.1-51.0,31,37
+Qwen3-4B-Instruct-2507,brief,60,53,5,2,3.3,0.9-11.4,53,58
+granite-3.3-2b-instruct,brief,60,33,27,0,0.0,0.0-6.0,33,60
+ALL MODELS,pair,180,71,33,76,42.2,35.2-49.5,71,104
+Phi-3.5-mini-instruct,pair,60,23,4,33,55.0,42.5-66.9,23,27
+Qwen3-4B-Instruct-2507,pair,60,28,9,23,38.3,27.1-51.0,28,37
+granite-3.3-2b-instruct,pair,60,20,20,20,33.3,22.7-45.9,20,40
+ALL MODELS,single,180,12,15,153,85.0,79.1-89.5,12,27
+Phi-3.5-mini-instruct,single,60,5,1,54,90.0,79.9-95.3,5,6
+Qwen3-4B-Instruct-2507,single,60,7,9,44,73.3,61.0-82.9,7,16
+granite-3.3-2b-instruct,single,60,0,5,55,91.7,81.9-96.4,0,5
