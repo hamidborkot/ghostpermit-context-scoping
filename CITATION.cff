@@ -1,15 +1,35 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the manuscript below."
-title: "GhostPermit: Context Scoping for Joint-Use Release Authorization in Multi-Source AI Assistants"
-type: software
+message: "If you use this software or the retained experimental data, please cite both the software and the paper (placeholder below)."
+title: "GhostPermit: Joint-use authorization for personal AI assistants with multi-source tool access"
+abstract: >-
+  Code, data, and paper artefacts for the GhostPermit study of joint-use
+  authorization for personal AI assistants that connect to multiple user
+  data sources (calendar, contacts, location, notes, email). The repo ships
+  the experimental harness, retained model-output CSVs, the
+  corrected-detector reanalysis, the human-validation harness, the LaTeX
+  manuscript, and the offline statistical reanalysis script.
 authors:
-  - family-names: "Tulla"
-    given-names: "MD Hamid Borkot"
-repository-code: "https://github.com/hamidborkot/ghostpermit-context-scoping"
+  - family-names: "GhostPermit"
+    given-names: "Authors"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
 keywords:
-  - joint-use authorization
-  - context scoping
-  - prompt injection
-  - release monitor
-  - AI assistants
-  - information-flow control
+  - llm-agents
+  - privacy
+  - access-control
+  - tool-use
+  - prompt-injection
+  - authorization
+  - information-flow
+license: MIT
+repository-code: "https://github.com/<your-org>/ghostpermit"
+version: "1.0.0"
+date-released: "2026-11-12"
+type: software
+preferred-citation:
+  type: unpublished
+  title: "GhostPermit: Joint-use authorization for personal AI assistants with multi-source tool access"
+  authors:
+    - family-names: "GhostPermit"
+      given-names: "Authors"
+  year: 2026
+  notes: "Replace this preferred-citation with the published reference once accepted."

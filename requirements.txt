@@ -1,5 +1,35 @@
-numpy
-pandas
-scipy
-statsmodels
-matplotlib
+# Python dependencies for GhostPermit
+#
+# Tested with Python 3.10–3.13 on Kaggle (Linux x86_64).
+# Install with:  pip install -r requirements.txt
+#
+# GPU experiments additionally require a CUDA-capable PyTorch build
+# matching your driver. The Kaggle T4 x2 image already provides one.
+
+# --- Core numerical stack ---
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+statsmodels>=0.14
+
+# --- LLM inference (GPU experiments only) ---
+# Pin to a recent 4.x release that supports the chat templates used here.
+transformers>=4.44
+accelerate>=0.30
+# bitsandbytes is OPTIONAL and only needed for QUANT_4BIT=True (Qwen3-32B etc.)
+# bitsandbytes>=0.46.1
+# torch>=2.1 is required by transformers; on Kaggle it is preinstalled.
+
+# --- Plotting ---
+matplotlib>=3.7
+
+# --- Notebooks ---
+jupyter>=1.0
+ipykernel>=6.0
+ipywidgets>=8.0
+
+# --- Optional: Hugging Face Hub token loading ---
+# huggingface_hub>=0.24
+
+# --- Optional: Kaggle dataset download ---
+# kagglehub>=0.2
